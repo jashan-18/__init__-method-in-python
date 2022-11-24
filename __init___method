@@ -1,0 +1,17 @@
+# use of__init__ method
+
+class student:
+    def __init__(self,n,r):
+        self.name=n
+        self.reg_no=r
+    def print_details(self):
+        return self.name+' '+self.reg_no
+
+s1 = student('Jashan preet','54546456')
+print(s1.print_details())
+
+s2 = student('Aman preet','97946456')
+print(s2.print_details())
+
+
+
